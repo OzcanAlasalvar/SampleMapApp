@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="navigator"
+            type="com.ozcanalasalvar.samplemapapp.ui.map.MapNavigator" />
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".ui.map.MapsFragment" />
+
+
+        <ImageView
+            android:id="@+id/imageSearch"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom|start"
+            android:layout_margin="15dp"
+            android:background="@drawable/circular_bg"
+            android:backgroundTint="@color/colorPrimary"
+            android:onClick="@{()->navigator.onSearchClick()}"
+            android:padding="10dp"
+            android:src="@drawable/search_icon"
+            android:tint="@color/color_white" />
+    </FrameLayout>
+
+</layout>

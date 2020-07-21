@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SampleMapApp</string>
+    <string name="title_feature">feature</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
