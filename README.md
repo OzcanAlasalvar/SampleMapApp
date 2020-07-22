@@ -1,6 +1,6 @@
 # Android MVVM Architecture: Sample Map App
 
-This repository contains sample usage of app module with MVVM. According to that I developed a basic map application. In this project there is a library module which name is core. Core module resposible for preferences and data sources to provide data to app module.
+This repository contains sample usage of app module with MVVM. According to that I developed a basic map application with using google places API and google map. In this project there is a library module which name is core. Core module resposible for preferences and data sources to provide data to app module.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/66948288/88223820-c0b96380-cc70-11ea-9697-60ca4a009513.png" width="250">
   <img src="https://user-images.githubusercontent.com/66948288/88223823-c2832700-cc70-11ea-87c9-ae9d0805774a.png" width="250">
